@@ -132,6 +132,8 @@ h2{
 
 #texto{
     display: flex;
+    max-width: 300px;
+    text-align: center;
     justify-content: center;
     align-self: center;
     margin-bottom: 50px;
@@ -163,4 +165,8 @@ button:hover{
 
 #boton2:hover{
     background-color: rgb(192, 189, 189);
+}
+
+section{
+    background: linear-gradient(rgba(0, 0, 0, 0.354), transparent);
 }
